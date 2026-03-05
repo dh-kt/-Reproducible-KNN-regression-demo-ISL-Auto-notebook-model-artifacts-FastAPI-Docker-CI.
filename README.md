@@ -1,0 +1,17 @@
+# Auto MPG — KNN regression demo
+
+Cleaned reproduction of ISL Chapter 3 using the Auto dataset.
+- End-to-end: EDA → preprocessing → KNN CV → distance-weighted KNN → evaluation → API → Docker.
+- Use `model_data/` to store trained artifacts (scaler.joblib, knn_weighted.joblib).
+
+Quickstart (local):
+1. Build image: `docker build -t auto-mpg-knn:latest .`
+2. Run container (mount model_data): `docker run --rm -p 8000:8000 -v "<ABS_PATH>/model_data:/content/model_data" auto-mpg-knn:latest`
+3. Test:
+   - GET `http://127.0.0.1:8000/`
+   - POST `http://127.0.0.1:8000/predict` with JSON body:
+     `{"displacement":150,"horsepower":95,"weight":2000,"acceleration":15.5,"cylinders":4}`
+
+Notes:
+- Consider adding `model_data/` to `.gitignore` if prefer to not commit model binaries.
+- See `notebooks/01_auto_knn_clean.ipynb` for the cleaned analysis.
