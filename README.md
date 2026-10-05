@@ -14,9 +14,8 @@ Reproducible pipeline:
 
 4. Release assets: model binaries uploaded to GitHub Releases with SHA256 checksums for integrity.
 
-Cleaned reproduction of ISL Chapter 3 using the Auto dataset.
-- End-to-end: EDA в†’ preprocessing в†’ KNN CV в†’ distance-weighted KNN в†’ evaluation в†’ API в†’ Docker.
-- Use `model_data/` to store trained artifacts (scaler.joblib, knn_weighted.joblib).
+Project Goal
+Develop and deploy a machine learning pipeline capable of predicting vehicle fuel efficiency (MPG) based on vehicle characteristics such as displacement, horsepower, weight, acceleration, and cylinder count.
 
 Quickstart (local):
 1. Build image: `docker build -t auto-mpg-knn:latest .`
