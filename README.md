@@ -2,6 +2,7 @@
 
 # Vehicle Fuel Efficiency Prediction Pipeline 
 **Python | Scikit-Learn | FastAPI | Docker | GitHub Actions**
+
 Built a reproducible machine learning pipeline to predict vehicle fuel efficiency (MPG) using the Auto MPG dataset.
 
 The best-performing distance-weighted KNN model (best_k = 21) achieved a test RMSE of approximately 4.10 and an R² score of approximately 0.67.
