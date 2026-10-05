@@ -1,7 +1,9 @@
 ﻿[![CI](https://github.com/dh-kt/auto-mpg-knn/actions/workflows/ci.yml/badge.svg)](https://github.com/dh-kt/auto-mpg-knn/actions/workflows/ci.yml)
 
 # Vehicle Fuel Efficiency Prediction Pipeline 
-An end-to-end machine learning project that predicts vehicle fuel efficiency (MPG) using the ISL Auto dataset. The project includes exploratory data analysis, preprocessing, model training, hyperparameter tuning, API deployment through FastAPI, Docker containerization, automated testing, and GitHub Actions CI.
+Built a reproducible machine learning pipeline to predict vehicle fuel efficiency (MPG) using the Auto MPG dataset.
+
+The best-performing distance-weighted KNN model (best_k = 21) achieved a test RMSE of approximately 4.10 and an R² score of approximately 0.67.
 
 ## Technical highlights 
 Trained a distance‑weighted KNN (best_k = 21); test RMSE ≈ 4.10, R² ≈ 0.67.
