@@ -1,6 +1,6 @@
 ﻿[![CI](https://github.com/dh-kt/auto-mpg-knn/actions/workflows/ci.yml/badge.svg)](https://github.com/dh-kt/auto-mpg-knn/actions/workflows/ci.yml)
 
-# Auto MPG KNN regression demo
+# Machine Learning Regression Pipeline for Vehicle Fuel Efficiency Prediction
 Implemented a reproducible K‑Nearest Neighbors regression pipeline on the ISL Auto dataset: cleaned notebook, KNN tuned via cross‑validation (best_k = 21), model artifacts, and a production-ready FastAPI prediction endpoint packaged with Docker. CI (GitHub Actions) runs tests; model artifacts are published as a GitHub Release for reviewers.
 
 Technical highlights 
