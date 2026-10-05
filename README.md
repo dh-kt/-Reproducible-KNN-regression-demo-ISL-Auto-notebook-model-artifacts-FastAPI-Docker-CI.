@@ -8,7 +8,7 @@ The best-performing distance-weighted KNN model (best_k = 21) achieved a test RM
 ## Technical highlights 
 Trained a distance‑weighted KNN (best_k = 21); test RMSE ≈ 4.10, R² ≈ 0.67.
 Reproducible pipeline: 
-1. cleaned Colab notebook, saved artifacts (scaler.joblib, knn_weighted.joblib), and model_data/summary.json.
+1. cleaned analysis notebook, saved artifacts (scaler.joblib, knn_weighted.joblib), and model_data/summary.json.
 
 2. Production-ready serving: FastAPI endpoint (/predict) validated locally and packaged with Docker.
 
