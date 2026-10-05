@@ -15,6 +15,7 @@ Reproducible pipeline:
 4. Release assets: model binaries uploaded to GitHub Releases with SHA256 checksums for integrity.
 
 Project Goal
+
 Develop and deploy a machine learning pipeline capable of predicting vehicle fuel efficiency (MPG) based on vehicle characteristics such as displacement, horsepower, weight, acceleration, and cylinder count.
 
 Quickstart (local):
