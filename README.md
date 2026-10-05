@@ -1,13 +1,14 @@
 ﻿[![CI](https://github.com/dh-kt/auto-mpg-knn/actions/workflows/ci.yml/badge.svg)](https://github.com/dh-kt/auto-mpg-knn/actions/workflows/ci.yml)
 
 # Vehicle Fuel Efficiency Prediction Pipeline 
+**Python | Scikit-Learn | FastAPI | Docker | GitHub Actions**
 Built a reproducible machine learning pipeline to predict vehicle fuel efficiency (MPG) using the Auto MPG dataset.
 
 The best-performing distance-weighted KNN model (best_k = 21) achieved a test RMSE of approximately 4.10 and an R² score of approximately 0.67.
 
 ## Technical highlights
 
-Key components of the reproducible pipeline include:
+The project includes the following production-ready components:
 
 1. Cleaned analysis notebook, saved artifacts (scaler.joblib, knn_weighted.joblib), and model_data/summary.json.
 
