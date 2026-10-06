@@ -4,8 +4,8 @@ from pydantic import BaseModel
 import os
 from src.predict import Predictor
 
-MODEL_PATH = "/content/model_data/knn_weighted.joblib"
-SCALER_PATH = "/content/model_data/scaler.joblib"
+MODEL_PATH = "model_data/knn_weighted.joblib"
+SCALER_PATH = "model_data/scaler.joblib"
 
 app = FastAPI(title="Auto MPG predictor (KNN)")
 
