@@ -22,6 +22,7 @@ def test_predictor_loads_and_predicts():
 
     p = Predictor(model_path=MODEL_PATH, scaler_path=SCALER_PATH)
 
+    # Example vehicle record for inference testing
     sample = {'displacement': 150.0, 'horsepower': 95.0, 'weight': 2000.0, 'acceleration': 15.5, 'cylinders': 4}
     pred = p.predict_one(sample)
 
